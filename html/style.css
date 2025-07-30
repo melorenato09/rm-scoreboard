@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+
+.container {
+    height: 100vh;
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+.scoreboard-block {
+    display: none;
+    position: absolute;
+    height: 55vh;
+    width: 30.50vh;
+    background: #ffffff;
+    right: 5vh;
+    top: 20vh;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.scoreboard-header {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background: #9D4EDD;
+    background: #9D4EDD;
+    background: #9D4EDD;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.scoreboard-header > p {
+    font-weight: bold;
+    color: #262624;
+    padding: 1.8vh;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.8vh;
+}
+
+.scoreboard-info {
+    position: relative;
+    height: 10vh;
+    width: 27vh;
+    top: 0;
+    margin: 0 auto;
+    transform: translateY(10%);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.scoreboard-info-header {
+    position: relative;
+    height: 2vh;
+}
+
+#info-tab-label {
+    position: absolute;
+    font-family: 'Tajawal', sans-serif;
+    left: 1vh;
+    font-weight: bold;
+}
+
+#status-tab-label {
+    position: absolute;
+    font-family: 'Tajawal', sans-serif;
+    right: 3vh;
+    font-weight: bold;
+}
+
+.info-beam-title {
+    position: absolute;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.8vh;
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    left: 1vh;
+    line-height: 4.25vh;
+}
+
+.info-beam-status {
+    position: absolute;
+    font-family: 'Tajawal', sans-serif;
+    right: 3vh;
+    float: left;
+    text-align: left;
+    line-height: 4.25vh;
+}
+
+.scoreboard-info-beam {
+    height: 4.50vh;
+    width: 100%;
+    transform: translateY(-20%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam1 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(-11%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam2 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(-3%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam3 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(5%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam4 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(14%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam5 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(21%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam6 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(28%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam7 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(35%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam8 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(42%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam9 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(49%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam10 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(56%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam11 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(64%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.scoreboard-info-beam12 {
+    height: 4.25vh;
+    width: 100%;
+    transform: translateY(71%);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.fa-times {
+    color: rgb(170, 27, 27);
+}
+
+.fa-check {
+    color: rgb(59, 141, 49);
+}
+
+.fa-clock {
+    color: rgb(255, 190, 50);
+}
+
+.orion {
+    position: relative;
+    height: 14vh;
+    left: -6vh;
+    transform: translate(70px, 0);
+}
