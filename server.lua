@@ -77,7 +77,7 @@ local function checkVersion(err, responseText, headers)
 end
 
 CreateThread(function()
-    updatePath = "/melorenato09/RM-Scoreboard" -- <=== O teu repositório do GitHub
-    resourceName = "RM-Scoreboard ("..GetCurrentResourceName()..")"
+    updatePath = "/melorenato09/rm-scoreboard" -- <=== O teu repositório do GitHub
+    resourceName = "rm-scoreboard ("..GetCurrentResourceName()..")"
     PerformHttpRequest("https://raw.githubusercontent.com"..updatePath.."/master/version", checkVersion, "GET")
 end)
