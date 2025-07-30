@@ -79,5 +79,5 @@ end
 CreateThread(function()
     updatePath = "/melorenato09/RM-Scoreboard" -- <=== O teu repositório do GitHub
     resourceName = "RM-Scoreboard ("..GetCurrentResourceName()..")"
-    PerformHttpRequest("https://raw.githubusercontent.com"..updatePath.."/main/version", checkVersion, "GET")
+    PerformHttpRequest("https://raw.githubusercontent.com"..updatePath.."/master/version", checkVersion, "GET")
 end)
