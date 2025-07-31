@@ -20,7 +20,11 @@ Config.MaxPlayers = GetConvarInt('sv_maxclients', 64) -- It returnes 64 if it ca
 -- Minimum Police for Actions
 Config.IllegalActions = {
     ["houserobbery"] = {
-        minimum = 1,
+        minimum = 2,
+        busy = false,
+    },
+    ["shoprobbery"] = {
+        minimum = 3,
         busy = false,
     },
     ["jewellery"] = {

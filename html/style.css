@@ -37,7 +37,7 @@
 
 .scoreboard-info {
     position: relative;
-    height: 25vh;
+    height: 5vh;
     width: 27vh;
     top: 0;
     margin: 0 auto;
@@ -197,6 +197,12 @@
 
 .fa-clock {
     color: rgb(255, 190, 50);
+}
+
+.fas.fa-check,
+.fas.fa-times,
+.fas.fa-clock {
+    font-size: 12px; /* ou 10px, ajuste conforme necessário */
 }
 
 .logo {
