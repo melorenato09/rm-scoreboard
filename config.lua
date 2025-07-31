@@ -12,35 +12,23 @@ Keys = {
 Config = Config or {}
 
 -- Open scoreboard key
-Config.OpenKey = Keys["PAGEDOWN"]
+Config.OpenKey = Keys["HOME"]
 
 -- Max Server Players
-Config.MaxPlayers = GetConvarInt('sv_maxclients', 32) -- It returnes 64 if it cant find the Convar Int
+Config.MaxPlayers = GetConvarInt('sv_maxclients', 64) -- It returnes 64 if it cant find the Convar Int
 
 -- Minimum Police for Actions
 Config.IllegalActions = {
-    ["storerobbery"] = {
-        minimum = 3,
-        busy = false,
-    },
     ["houserobbery"] = {
-        minimum = 2,
-        busy = false,
-    },
-    ["fleecabankrobbery"] = {
-        minimum = 4,
+        minimum = 1,
         busy = false,
     },
     ["jewellery"] = {
         minimum = 5,
         busy = false,
     },
-    ["paletobankrobbery"] = {
-        minimum = 4,
-        busy = false,
-    },
-    ["pacific"] = {
-        minimum = 4,
+    ["principalBank"] = {
+        minimum = 10,
         busy = false,
     },
 }

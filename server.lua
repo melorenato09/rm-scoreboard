@@ -6,7 +6,7 @@ QBCore.Functions.CreateCallback('qb-scoreboard:server:GetFullData', function(sou
     local AmbulanceCount = 0
     local MechanicCount = 0
     local players = QBCore.Functions.GetPlayers()
-    local maxPlayers = GetConvarInt("sv_maxclients", 48)
+    local maxPlayers = GetConvarInt("sv_maxclients", 64)
 
     for _, v in pairs(players) do
         local Player = QBCore.Functions.GetPlayer(v)

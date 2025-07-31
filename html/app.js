@@ -33,6 +33,20 @@ QBScoreboard.Open = function(data) {
         var mechStatus = $(mechBeam).find(".info-beam-status");
         $(mechStatus).html(`<span>${data.currentMechanic} </span>`);
     }
+
+        $.each(data.requiredCops, function(i, category){
+        var beam = $(".scoreboard-info").find('[data-type="'+i+'"]');
+        var status = $(beam).find(".info-beam-status");
+
+
+        if (category.busy) {
+            $(status).html('<i class="fas fa-clock"></i>');
+        } else if (data.currentCops >= category.minimum) {
+            $(status).html('<i class="fas fa-check"></i>');
+        } else {
+            $(status).html('<i class="fas fa-times"></i>');
+        }
+    });
 }
 
 QBScoreboard.Close = function() {
